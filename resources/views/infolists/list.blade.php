@@ -6,7 +6,7 @@
     @endphp
 
     @if(filled($heading))
-        <h4>{{ $heading }}</h4>
+        <h4 class="my-3">{{ $heading }}</h4>
     @endif
 
     <ul role="list"
