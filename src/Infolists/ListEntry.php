@@ -37,7 +37,7 @@ class ListEntry extends Component
         return $this;
     }
 
-    public function isGrouped():bool
+    public function isGrouped(): bool
     {
         return $this->grouped;
     }
@@ -49,7 +49,7 @@ class ListEntry extends Component
         return $this;
     }
 
-    public function isList():bool
+    public function isList(): bool
     {
         return $this->list;
     }

@@ -6,14 +6,22 @@ use Illuminate\Contracts\Support\Arrayable;
 
 final class ListItem implements Arrayable
 {
-    protected int|string $id;
+    protected int | string $id;
+
     protected string $label = '';
+
     protected ?string $icon = null;
+
     protected ?string $iconSize = null;
+
     protected ?string $color = null;
+
     protected ?string $iconColor = null;
+
     protected ?string $url = null;
+
     protected ?string $badge = null;
+
     protected ?bool $openInNewTab = false;
 
     public static function make(): ListItem
@@ -21,7 +29,7 @@ final class ListItem implements Arrayable
         return new ListItem();
     }
 
-    public function id(int|string $id): ListItem
+    public function id(int | string $id): ListItem
     {
         $this->id = $id;
 
