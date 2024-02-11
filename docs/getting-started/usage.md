@@ -3,7 +3,7 @@ title: Usage
 weight: 4
 ---
 
-## In Forms
+## In Infolist
 
 to use @zeus list-group in your infolist:
 
