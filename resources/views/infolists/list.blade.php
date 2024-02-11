@@ -24,8 +24,8 @@
                 @endphp
             @endif
             @php
-                $color = (isset($item['color']) && filled($item['color'])) ? $item['color'] : 'primary';
-                $iconColor = (isset($item['iconColor']) && filled($item['iconColor'])) ? $item['iconColor'] : 'primary';
+                $color = (isset($item['color']) && filled($item['color'])) ? $item['color'] : 'gray';
+                $iconColor = (isset($item['iconColor']) && filled($item['iconColor'])) ? $item['iconColor'] : 'gray';
             @endphp
             <li
                 @style([
@@ -41,7 +41,7 @@
                     },
                 ])
             >
-                <a class="flex items-center space-x-3"
+                <a class="flex items-center space-x-2 rtl:space-x-reverse"
                    target="@if(isset($item['isNewTab']) && $item['isNewTab']) _blank @else _self @endif"
 
                    href="{{ $item['url'] }}"
@@ -55,10 +55,10 @@
                                 ) => $iconColor !== 'gray',
                             ])
                             @class([
-                                'h-5 w-5 flex justify-center items-center rounded-full',
+                                '',
                                 match ($iconColor) {
-                                    'gray' => 'bg-gray-600 dark:bg-gray-500 text-white dark:text-gray-500',
-                                    default => 'bg-custom-600 dark:bg-custom-500 text-white dark:text-custom-500',
+                                    'gray' => 'text-gray-800 dark:text-gray-500',
+                                    default => 'text-custom-800 dark:text-custom-500',
                                 },
                             ])
                         >
