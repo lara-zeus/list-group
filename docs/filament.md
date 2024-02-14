@@ -4,11 +4,11 @@ Infolist layout component to group items with links, icons and badges
 
 ## Features
 
-🔥 pass array or a relationship
-🔥 customizable per item
-    🔥 URL
-    🔥 Icon
-    🔥 Label
+- 🔥 pass array or a relationship
+- 🔥 customizable per item:
+  - 🔥 URL
+  - 🔥 Icon
+  - 🔥 Label
 
 ## Screenshots
 
