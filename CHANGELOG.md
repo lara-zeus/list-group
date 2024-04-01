@@ -2,6 +2,14 @@
 
 All notable changes to `List Group` will be documented in this file
 
+## 1.0.2 - 2024-04-01
+
+### What's Changed
+
+* support Tables Column by @atmonshi in https://github.com/lara-zeus/list-group/pull/3
+
+**Full Changelog**: https://github.com/lara-zeus/list-group/compare/1.0.1...1.0.2
+
 ## 1.0.1 - 2024-02-12
 
 ### What's Changed
