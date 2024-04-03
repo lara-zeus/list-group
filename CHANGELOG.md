@@ -2,6 +2,14 @@
 
 All notable changes to `List Group` will be documented in this file
 
+## 1.0.3 - 2024-04-03
+
+### What's Changed
+
+* fix table ui wrong padding by @atmonshi in https://github.com/lara-zeus/list-group/pull/4
+
+**Full Changelog**: https://github.com/lara-zeus/list-group/compare/1.0.2...1.0.3
+
 ## 1.0.2 - 2024-04-01
 
 ### What's Changed
