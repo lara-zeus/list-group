@@ -5,7 +5,7 @@
 
     <ul
         role="list"
-        class="max-w-xs flex text-sm text-gray-600 dark:text-gray-400 ps-5 gap-2 text-sm"
+        class="max-w-xs flex text-gray-600 dark:text-gray-400 gap-2 text-sm"
     >
         @if(filled($getState))
             @foreach ($getState as $item)
