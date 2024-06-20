@@ -10,6 +10,8 @@ final class ListItem implements Arrayable
 
     protected string $label = '';
 
+    protected ?string $tooltip = null;
+
     protected ?string $icon = null;
 
     protected ?string $iconSize = null;
@@ -46,6 +48,13 @@ final class ListItem implements Arrayable
     public function icon(string $icon): ListItem
     {
         $this->icon = $icon;
+
+        return $this;
+    }
+
+    public function tooltip(string $tooltip): ListItem
+    {
+        $this->tooltip = $tooltip;
 
         return $this;
     }
@@ -90,6 +99,7 @@ final class ListItem implements Arrayable
         return [
             'id' => $this->id,
             'label' => $this->label,
+            'tooltip' => $this->tooltip,
             'icon' => $this->icon,
             'iconColor' => $this->iconColor,
             'color' => $this->color,
