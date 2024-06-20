@@ -2,6 +2,14 @@
 
 All notable changes to `List Group` will be documented in this file
 
+## 1.0.4 - 2024-06-20
+
+### What's Changed
+
+* add support for tooltip by @atmonshi in https://github.com/lara-zeus/list-group/pull/5
+
+**Full Changelog**: https://github.com/lara-zeus/list-group/compare/1.0.3...1.0.4
+
 ## 1.0.3 - 2024-04-03
 
 ### What's Changed
