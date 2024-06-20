@@ -31,7 +31,7 @@
                     $color = (isset($item['color']) && filled($item['color'])) ? $item['color'] : 'gray';
                     $iconColor = (isset($item['iconColor']) && filled($item['iconColor'])) ? $item['iconColor'] : 'gray';
                 @endphp
-                <li
+                <li x-tooltip.raw="{{ $item['tooltip'] ?? '' }}"
                     @style([
                         \Filament\Support\get_color_css_variables(
                             $color,
