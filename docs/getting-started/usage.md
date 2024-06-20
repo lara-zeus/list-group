@@ -17,6 +17,7 @@ to use @zeus list-group in your infolist:
             ->id(1)
             ->url('#1')
             ->color('info')
+            ->tooltip('hey')
             ->label('Hi'),
         ListItem::make()
             ->id(2)

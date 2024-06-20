@@ -14,8 +14,8 @@
                         $item = $item->toArray();
                     @endphp
                 @endif
-                <li>
-                    <a
+                <li x-data>
+                    <a x-tooltip.raw="{{ $item['tooltip'] }}"
                         class="flex items-center space-x-2 rtl:space-x-reverse"
                         target="{{ (isset($item['isNewTab']) && $item['isNewTab']) ? '_blank' : '_self' }}"
                         href="{{ $item['url'] }}"
