@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://larazeus.com"><img src="https://larazeus.com/images/lara-zeus-list-group.png" /></a>
+<a href="https://larazeus.com"><img src="https://larazeus.com/images/lara-zeus-list-group.webp" /></a>
 </p>
 
 <h4 align="center">Infolist layout component to group items with links, icons and badges.</h4>
@@ -23,7 +23,7 @@
 
 ## Screenshots
 
-![](https://larazeus.com/images/screenshots/list-group/list-group-1.png)
+![](https://larazeus.com/images/screenshots/list-group/list-group-1.webp)
 
 ## Demo
 

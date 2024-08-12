@@ -12,9 +12,9 @@ Infolist layout component to group items with links, icons and badges
 
 ## Screenshots
 
-![](https://larazeus.com/images/screenshots/list-group/list-group-1.png)
-![](https://larazeus.com/images/screenshots/list-group/list-group-2.png)
-![](https://larazeus.com/images/screenshots/list-group/list-group-3.png)
+![](https://larazeus.com/images/screenshots/list-group/list-group-1.webp)
+![](https://larazeus.com/images/screenshots/list-group/list-group-2.webp)
+![](https://larazeus.com/images/screenshots/list-group/list-group-3.webp)
 
 ## More Details
 **✨ to learn more about List Group, please visit:**
