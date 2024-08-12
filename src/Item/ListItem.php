@@ -28,7 +28,7 @@ final class ListItem implements Arrayable
 
     public static function make(): ListItem
     {
-        return new ListItem();
+        return new ListItem;
     }
 
     public function id(int | string $id): ListItem
