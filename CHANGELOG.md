@@ -2,6 +2,14 @@
 
 All notable changes to `List Group` will be documented in this file
 
+## 1.0.5 - 2025-03-18
+
+### What's Changed
+
+* add support for Grouped List by @atmonshi in https://github.com/lara-zeus/list-group/pull/6
+
+**Full Changelog**: https://github.com/lara-zeus/list-group/compare/1.0.4...1.0.5
+
 ## 1.0.4 - 2024-06-20
 
 ### What's Changed
