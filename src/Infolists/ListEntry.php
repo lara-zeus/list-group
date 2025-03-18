@@ -17,11 +17,6 @@ class ListEntry extends Component
 
     protected bool $list = false;
 
-    final public function __construct(?string $label = null)
-    {
-        $this->label($label);
-    }
-
     public static function make(?string $label = null): static
     {
         $static = app(static::class, ['label' => $label]);
