@@ -14,10 +14,9 @@ final class ListItem implements Arrayable
 
     protected ?string $icon = null;
 
-    protected ?string $iconSize = null;
-
     protected ?string $color = null;
 
+    // @deprecated use '->color('warning')' instead
     protected ?string $iconColor = null;
 
     protected ?string $url = null;
@@ -87,6 +86,11 @@ final class ListItem implements Arrayable
         return $this;
     }
 
+    /**
+     * @deprecated use '->color('warning')' instead
+     *
+     * @return $this
+     */
     public function iconColor(string $color): ListItem
     {
         $this->iconColor = $color;
