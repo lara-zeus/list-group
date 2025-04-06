@@ -2,11 +2,12 @@
 
 namespace LaraZeus\ListGroup\Infolists;
 
-use Filament\Infolists\Components\Component;
+use Filament\Infolists\Components\Entry;
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Concerns\HasHeading;
 use Filament\Support\Concerns;
-use Filament\Support\Concerns\HasHeading;
 
-class ListEntry extends Component
+class ListEntry extends Entry
 {
     use Concerns\HasExtraAlpineAttributes;
     use HasHeading;
@@ -16,15 +17,7 @@ class ListEntry extends Component
     protected bool $grouped = false;
 
     protected bool $list = false;
-
-    public static function make(?string $label = null): static
-    {
-        $static = app(static::class, ['label' => $label]);
-        $static->configure();
-
-        return $static;
-    }
-
+    
     public function grouped(bool $condition = true): static
     {
         $this->grouped = $condition;

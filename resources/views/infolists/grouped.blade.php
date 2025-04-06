@@ -1,7 +1,7 @@
 <div
     role="list"
     @class([
-        'flex flex-col rounded-lg divide-y border border-gray-200 shadow-sm',
+        'flex flex-col rounded-lg divide-y divide-gray-100 dark:divide-gray-700 border border-gray-100 dark:border-gray-700 shadow-sm',
         match (true) {
             $isList => 'list-disc',
             default => '',
@@ -18,7 +18,7 @@
             @php
                 $color = (isset($item['color']) && filled($item['color'])) ? $item['color'] : 'gray';
             @endphp
-            <div class="flex py-2 px-4 bg-white first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900 dark:border-gray-700">
+            <div class="flex py-2 px-4 bg-white first:rounded-t-lg last:rounded-b-lg dark:bg-gray-900">
                 <x-filament::link
                     :weight="\Filament\Support\Enums\FontWeight::Normal"
                     :color="$color ?? 'gray'"
