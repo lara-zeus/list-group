@@ -3,7 +3,6 @@
 namespace LaraZeus\ListGroup\Infolists;
 
 use Filament\Infolists\Components\Entry;
-use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Concerns\HasHeading;
 use Filament\Support\Concerns;
 
@@ -17,7 +16,7 @@ class ListEntry extends Entry
     protected bool $grouped = false;
 
     protected bool $list = false;
-    
+
     public function grouped(bool $condition = true): static
     {
         $this->grouped = $condition;
