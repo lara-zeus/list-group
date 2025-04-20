@@ -19,12 +19,6 @@
                 $color = (isset($item['color']) && filled($item['color'])) ? $item['color'] : 'gray';
             @endphp
             <li x-tooltip.raw="{{ $item['tooltip'] ?? '' }}"
-                @style([
-                    \Filament\Support\get_color_css_variables(
-                        $color,
-                        shades: [400, 500, 600],
-                    ) => $color !== 'gray',
-                ])
                 @class([
                     match ($color) {
                         'gray' => 'text-gray-600',
