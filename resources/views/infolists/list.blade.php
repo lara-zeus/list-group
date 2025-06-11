@@ -15,5 +15,4 @@
     @else
         @include('zeus-list-group::infolists.item')
     @endif
-
 </div>
