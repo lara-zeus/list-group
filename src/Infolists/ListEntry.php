@@ -4,11 +4,11 @@ namespace LaraZeus\ListGroup\Infolists;
 
 use Filament\Infolists\Components\Entry;
 use Filament\Schemas\Components\Concerns\HasHeading;
-use Filament\Support\Concerns;
+use Filament\Support\Concerns\HasExtraAlpineAttributes;
 
 class ListEntry extends Entry
 {
-    use Concerns\HasExtraAlpineAttributes;
+    use HasExtraAlpineAttributes;
     use HasHeading;
 
     protected string $view = 'zeus-list-group::infolists.list';
