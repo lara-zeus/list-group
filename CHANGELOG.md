@@ -2,6 +2,10 @@
 
 All notable changes to `List Group` will be documented in this file
 
+## 3.0.0 - 2026-03-10
+
+Support filament 5
+
 ## 2.0.1 - 2025-10-22
 
 **Full Changelog**: https://github.com/lara-zeus/list-group/compare/1.0.5...2.0.1
